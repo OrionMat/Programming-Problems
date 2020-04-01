@@ -28,25 +28,3 @@ def longestCommonPrefix(strs):
 
 list = ["flower","flow","flight"]
 print(longestCommonPrefix(list))
-
-
-
-# def longestCommonPrefix(strs):
-#     """
-#     :type strs: List[str]
-#     :rtype: str
-#     """
-#     longestPre = ""
-#     remaining = strs[1:]
-#     for i, word1 in enumerate(strs):
-#         for word2 in remaining[i:]:
-#             pre = ""
-#             for idx in range(len(word1)):
-#                 if idx > len(word2) -1: break
-#                 if word1[idx] == word2[idx]: pre += word1[idx]
-#                 else: break
-#             if len(pre) > len(longestPre): longestPre = pre
-#     return longestPre
-
-# list = ["cat", "clap", "dog", "catfish"]
-# print(longestCommonPrefix(list))
