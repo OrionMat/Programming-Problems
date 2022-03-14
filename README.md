@@ -1,2 +1,2 @@
-# LeetCode
-Solutions to LeetCode problems
+# Programming problems
+Solutions to programming problems (LeetCode etc.)
