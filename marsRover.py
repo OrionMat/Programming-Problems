@@ -14,8 +14,6 @@ def parseGridSize(gridSizeString):
     xLength = int(gridSizeList[0])
     yLength = int(gridSizeList[1])
 
-    # TODO: add checks for 0 0 input and negative grids sizes
-
     return (xLength, yLength)
 
 # Function to parse user instruction into variables.
